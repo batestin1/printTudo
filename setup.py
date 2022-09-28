@@ -2,7 +2,7 @@ from setuptools import setup
 from setuptools import find_packages
 setup(
     name = 'printTudo',
-    version = '3.0.0',
+    version = '4.0.0',
     author = 'Bates',
     author_email = 'Bates@mailer.com.br',
     packages = ['printTudo'],
