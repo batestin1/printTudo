@@ -21,12 +21,12 @@ data = times.replace('-','_').replace(' ', '_').replace(':','_')[:19]
 
 
 
-def printTudo():
+def printTudo(x,y):
     path = Path(f"print")
     path.mkdir(parents=True, exist_ok=True)
-    for i in range(28800):
+    for i in range(x):
         foto = pyautogui.screenshot()
-        time.sleep(4)
+        time.sleep(y)
         foto.save(f"print/print_{i}_{data}.png")
     
     print("worked")

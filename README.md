@@ -22,7 +22,10 @@ pip install printTudo
 ```
 from printTudo import *
 
-printTudo()
+printTudo(x,y)
+
+# o x indica a quantidade de prints que você deseja obter 
+# o y indica a o intervalo de prints que você deseja obter
 
 ```
     
